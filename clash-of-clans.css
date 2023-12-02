@@ -1,0 +1,93 @@
+body{
+    background-color: #E1F5FE;  
+}
+
+body::after{
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(5px);
+    z-index: -1;
+    background-image: url(./clash-of-clans/clash-of-clans-background.jpg);
+    background-size: cover;
+}
+
+.my-button{
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 7px;
+        background-color: white;
+        text-decoration: none !important;
+        text-align: center;
+        transition-duration: 0.3s;
+        text-align: center;
+    }
+    .my-button{
+    background-color: #e2e2e2;
+      box-shadow: rgba(243, 245, 247, 0.2) 0px 8px 24px;;
+    }
+    .my-button {
+    text-align: center;
+    background-color: rgb(47, 177, 177);
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none !important;
+    padding: 2em;
+    margin: 7pt;
+    border: 1pt;
+    }
+
+.shop{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+figure {
+    flex-flow: column;
+    padding: 5px;
+    max-width: 300px;
+    border-radius: 7px;
+}
+
+img {
+    max-width: 200px;
+    min-width: 200px;
+    max-height: 800px;
+    border-radius: 7px;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+figure:hover{
+    background-color: #0277BD;
+    transition-duration: 0.3s;
+}
+
+.item1:hover{
+    color: white;
+}
+
+.item1{
+    text-align: center;
+    font-size: x-large;
+}
+
+
+.shop a[href]{
+    text-align: center;
+    text-decoration: none !important;
+}
+
+.products{
+    border-radius: inline-block;
+}

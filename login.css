@@ -1,0 +1,60 @@
+body{
+    background-color: #E1F5FE;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 2em;
+    margin: 2px;
+    background-color: #D50000;
+    border-radius: 10px;
+}
+
+label{
+    font-size: xx-large;
+}
+
+input{
+    font-size: xx-large;
+    border-radius: 7px;
+}
+
+#for-example{
+    text-align: center;
+    margin: 1em;
+    background-color: #1DE9B6;
+    height: 14em;
+    padding: 4em;
+    font-size: x-large;
+    border-radius: 7px;
+}
+
+.login-form2{
+    text-align: center;
+}
+
+.button1{
+    color: #fff;
+    background-color: #00B0FF;
+    box-shadow: 0 4px #00B0FF;
+    border-color: #00E5FF;
+    width: 100%;
+    display: block;
+    margin: 1em auto 0;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 14px;
+    padding-top: 0.8571428571rem;
+    padding-left: 1.7142857143rem;
+    padding-bottom: 0.9285714286rem;
+    padding-right: 1.7142857143rem;
+    font-size: 1em;
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+    outline: none;
+    position: relative;
+}

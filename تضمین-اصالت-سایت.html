@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title></title>
+
+    <link rel="stylesheet" href="تضمین-اصالت-سایت.css">
+
+</head>
+
+<body>
+
+    
+<div class="fixed-action-btn">
+    <a class="btn-floating btn-large blue">
+      <i class="large material-icons">mode_edit</i>
+    </a>
+    <ul>
+      <li><a href="gameshop.html" class="btn-floating black"><i class="material-icons">home</i></a></li>
+    </ul>
+  </div>
+        
+
+    <header>
+
+        gurantee the authenticity of the site
+
+    </header>
+
+    <div>
+
+        
+
+    </div>
+
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          var elems = document.querySelectorAll('.fixed-action-btn');
+          var instances = M.FloatingActionButton.init(elems, options);
+        });
+      
+        // Or with jQuery
+      
+        $(document).ready(function(){
+          $('.fixed-action-btn').floatingActionButton();
+        });
+              </script>
+    <script>
+        
+  var instance = M.FloatingActionButton.getInstance(elem);
+
+/* jQuery Method Calls
+  You can still use the old jQuery plugin method calls.
+  But you won't be able to access instance properties.
+
+  $('.fixed-action-btn').floatingActionButton('methodName');
+  $('.fixed-action-btn').floatingActionButton('methodName', paramName);
+*/
+       
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          var elems = document.querySelectorAll('.fixed-action-btn');
+          var instances = M.FloatingActionButton.init(elems, {
+            direction: 'left',
+            hoverEnabled: false
+          });
+        });
+              </script>
+
+</body>
+
+</html>

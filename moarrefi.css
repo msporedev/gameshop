@@ -1,0 +1,27 @@
+body{
+    background-color: #E1F5FE;
+}
+
+#headerform{
+    text-align: center;
+}
+
+#linkcreate-form{
+    background-color: #00796B;
+    padding: 2em 5em;
+    border: groove;
+    text-align: center;
+    margin-top: 10em;
+    display: inline-block;
+}
+
+div[id="headerform"] form[id="linkcreate-form"] button{
+    padding: 10px 20px;
+    background-color: #03A9F4;
+    transition-duration: 0.4s;
+}
+
+div[id="headerform"] form[id="linkcreate-form"] button:hover{
+    background-color: black;
+    color: #64FFDA;
+}

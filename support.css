@@ -1,0 +1,39 @@
+body{
+    background-color: #E1F5FE;
+}
+
+figure{
+    text-align: center;
+}
+
+#whatsapplogo{
+    height: 200px;
+    margin: 1em;
+}
+
+#telegramlogo{
+    height: 185px;
+    margin: 1em;
+}
+
+#facebooklogo{
+    height: 200px;
+    margin: 1em;
+}
+
+article a{
+    display: inline-block;
+    margin: 2em;
+    padding: 2em;
+    text-decoration: none !important;
+}
+
+article a:hover{
+    background-color: rgb(172, 223, 243);
+}
+
+figcaption{
+    color: #00695C;
+    font-size: xx-large;
+    border-radius: 7px;
+}

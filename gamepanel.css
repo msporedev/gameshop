@@ -1,0 +1,21 @@
+body{
+    background-color: #E1F5FE;
+}
+
+figure{
+    display: inline-block;
+}
+
+figure:hover{
+    background-color: #00E5FF;
+}
+
+figure fieldset img{
+    width: 200px;
+}
+
+figcaption{
+    text-align: center;
+    font-size: large;
+    color: black;
+}
