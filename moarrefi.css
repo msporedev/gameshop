@@ -1,5 +1,5 @@
 body{
-    background-color: #E1F5FE;
+    background-color: #03121a;
 }
 
 #headerform{
@@ -7,7 +7,7 @@ body{
 }
 
 #linkcreate-form{
-    background-color: #00796B;
+    background-color: #FF4500;
     padding: 2em 5em;
     border: groove;
     text-align: center;
@@ -15,10 +15,20 @@ body{
     display: inline-block;
 }
 
+input{
+    font-size: x-large;
+    border-radius: 5px;
+}
+
+label{
+    font-size: x-large;
+}
+
 div[id="headerform"] form[id="linkcreate-form"] button{
     padding: 10px 20px;
     background-color: #03A9F4;
     transition-duration: 0.4s;
+    font-size: large;
 }
 
 div[id="headerform"] form[id="linkcreate-form"] button:hover{
