@@ -1,5 +1,5 @@
 body{
-    background-color: #E1F5FE;
+    background-color: #03121a;
 }
 
 h1{
@@ -7,23 +7,24 @@ h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 2em;
     margin: 2px;
-    background-color: #D50000;
+    background-color: #2e2e2e;
     border-radius: 10px;
+    color: #bce8ff;
 }
 
 label{
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 input{
-    font-size: xx-large;
+    font-size: x-large;
     border-radius: 7px;
 }
 
 #for-example{
     text-align: center;
     margin: 1em;
-    background-color: #1DE9B6;
+    background-color: #FF4500;
     height: 14em;
     padding: 4em;
     font-size: x-large;

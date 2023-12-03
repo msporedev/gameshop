@@ -1,5 +1,5 @@
     body{
-        background-color: #E1F5FE;
+        background-color: #03121a;
     }
     
     h1{
@@ -7,7 +7,7 @@
         margin: 1em;
         margin-top: auto;
         height: 2em;
-        color: #263238;
+        color: #00BFFF;
         padding: 1em;
     }
 
@@ -24,7 +24,7 @@
 
     #front-w1{
         text-align: center;
-        background-color: #1DE9B6;
+        background-color: #FF4500;
         margin: 20em;
         margin-top: auto;
         padding: 3em;
@@ -33,14 +33,14 @@
 
     .link{
         font-size: xx-large;
-        color: #006064;
+        color: #bce8ff;
         text-decoration: none !important;
     }
 
     .button1{
         color: #fff;
-        background-color: #00B0FF;
-        box-shadow: 0 4px #00B0FF;
+        background-color: #00BFFF;
+        box-shadow: 0 4px #00BFFF;
         border-color: #00E5FF;
         width: 100%;
         display: block;
