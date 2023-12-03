@@ -1,67 +1,92 @@
 <html>
+
 <head lang="en">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> gameshopping | فرم احراز هویت در سایت </title>
 
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./signup.css">
 
 </head>
 
 <body>
 
-    <div >
-    <h1> <p>برای ورود فرم زیر را پر کنید</p> </h1>
-    <form action="./login.html" id="front-w1">
+    <div>
+        <div id="front-w1">
 
-    <label class="login-form1"> firstname(فارسی) :
-    <input type="text" name="firstname" placeholder="نام">
-    </label>
-    
-    <br><br>
+            <div class="row">
+                <h5>برای ورود فرم زیر را پر کنید</h5>
+                <form class="col s12" action="./login.html">
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input id="icon_prefix" type="text" class="validate">
+                            <label for="icon_prefix">First Name</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input id="icon_prefix" type="text" class="validate">
+                            <label for="icon_prefix">Last Name</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">email</i>
+                            <input id="icon_prefix" type="email" class="validate">
+                            <label for="icon_prefix">Email</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">lock</i>
+                            <input id="icon_prefix" type="password" class="validate">
+                            <label for="icon_prefix">Password</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">phone</i>
+                            <input id="icon_telephone" type="tel" class="validate">
+                            <label for="icon_telephone">Telephone</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <p>
+                            <label>
+                              <input type="checkbox" />
+                              <span>Remember me</span>
+                            </label>
+                          </p>
+                    </div>
+                </form>
+            </div>
 
-    <label class="login-form1"> lastname(فارسی):
-    <input type="text" name="lastname" placeholder="نام خانوادگی">
-    </label>
-    
-    <br><br>
-
-    <label class="login-form1">email :
-    <input type="email" name="email" placeholder="ایمیل">
-    </label>
-    
-    <br><br>
-
-    <label class="login-form1">password :
-    <input type="password" name="password" placeholder="پسورد">
-    </label>
-
-    <br><br>
-
-        <label class="login-form1"> your phone number :
-        <input type="tel" name="phonenumber" placeholder="شماره موبایل">
-        </label>
-
-        <br><br>
-
-        <label class="login-form1">Remind me
-        <input type="checkbox" name="">
-        </label>
-
-        <br><br>
-
-        <a href="./login.html" class="link">login</a>
-
-        <br><br>
+            <a href="./login.html" class="link">login</a>
 
 
-    <button type="submit" class="button1">send</button>
-    
+            <button type="submit" class="button1">send</button>
 
-    </form>
+
+        </form>
 
     </div>
+
 
 </body>
 
