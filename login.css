@@ -2,29 +2,15 @@ body{
     background-color: #03121a;
 }
 
-h1{
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height: 2em;
-    margin: 2px;
-    background-color: #2e2e2e;
-    border-radius: 10px;
-    color: #bce8ff;
-}
 
 label{
     font-size: x-large;
 }
 
-input{
-    font-size: x-large;
-    border-radius: 7px;
-}
-
 #for-example{
     text-align: center;
     margin: 1em;
-    background-color: #FF4500;
+    
     height: 14em;
     padding: 4em;
     font-size: x-large;
@@ -35,27 +21,75 @@ input{
     text-align: center;
 }
 
+h1{
+    text-align: center;
+    margin: 1em;
+    margin-top: auto;
+    height: 2em;
+    color: #00BFFF;
+    padding: 1em;
+}
+
+.login-form1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+}
+
+input{
+    font-size: x-large;
+    border-radius: 7px;
+}
+
+#front-w1{
+    text-align: center;
+    background-color: #464646;
+    margin: 20em;
+    margin-top: auto;
+    padding: 3em;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+#front-w1 h5{
+    color:#ff7b3a;
+
+}
+
+.material-icons{
+    color: #FF4500;
+}
+
+.link{
+    font-size: xx-large;
+    color: #bce8ff;
+    text-decoration: none !important;
+}
+
 .button1{
     color: #fff;
-    background-color: #00B0FF;
-    box-shadow: 0 4px #00B0FF;
-    border-color: #00E5FF;
+    background-color: #00619a;
+    border: none;
     width: 100%;
     display: block;
     margin: 1em auto 0;
-    padding-left: 1em;
-    padding-right: 1em;
     text-align: center;
     font-weight: bold;
     border-radius: 14px;
-    padding-top: 0.8571428571rem;
-    padding-left: 1.7142857143rem;
-    padding-bottom: 0.9285714286rem;
-    padding-right: 1.7142857143rem;
-    font-size: 1em;
-    -webkit-transition: none;
-    -moz-transition: none;
-    transition: none;
+    font-size: 1.5em;
     outline: none;
-    position: relative;
+    padding: 0.5em 0;
+    cursor: pointer;
+}
+
+.button1:active{
+    background-color: #003a5c;
+}
+.button1:hover{
+    background-color: #003a5c;
+}
+.button1:focus{
+    background-color: #003a5c;
 }
