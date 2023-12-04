@@ -158,21 +158,3 @@ body {
 .correctCaptcha {
     color: #7FFF00;
 }
-
-
-
-
-Add or remove CSS properties from this code according to your preference. You can also give an elegant look to the form container using the CSS box-shadow property.
-
-CAPTCHA Validation Using JavaScript
-You need to use JavaScript to add functionality to a webpage. Start by fetching references to the elements you’ll need to work with including the canvas and input box. Use the document.getElementById() function to do this:
-
- let captchaText = document.getElementById('captcha');
-var ctx = captchaText.getContext("2d");
-ctx.font = "30px Roboto";
-ctx.fillStyle = "#08e5ff";
-
-let userText = document.getElementById('textBox');
-let submitButton = document.getElementById('submitButton');
-let output = document.getElementById('output');
-let refreshButton = document.getElementById('refreshButton');
