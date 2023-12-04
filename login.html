@@ -21,6 +21,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     
+    <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+
     <link rel="stylesheet" href="./login.css">
 
 </head>
@@ -28,13 +30,13 @@
 <body>
 
 
-         <div>
+        <div>
             <div id="front-w1">
-    
+        
                 <div class="row">
                     <h5>برای ورود فرم زیر را پر کنید</h5>
-                    <form class="col s12" action="./login.html">
-
+                    <form class="col s12" action="./gameshop.html">
+        
                         <div class="row">
                             <div class="input-field col s12">
                                 <i class="material-icons prefix">email</i>
@@ -49,23 +51,50 @@
                                 <label for="icon_prefix">Password</label>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="input-field col s12">
-                                <i class="material-icons prefix">phone</i>
-                                <input id="icon_telephone" type="tel" class="validate">
-                                <label for="icon_telephone">Telephone</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <p>
-                                <label>
-                                  <input type="checkbox" />
-                                  <span>Remember me</span>
-                                </label>
-                              </p>
-                        </div>
-                    </form>
+                        
+<div class="row">
+
+    <!-- <div class="input-field col s4">
+        <select>
+            <option value="" disabled selected>country code</option>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+        </select>
+        <label>area code</label>
+    </div> -->
+
+<div class="input-field col s12 right">
+    <i class="material-icons prefix">phone</i>
+    <input id="icon_telephone" type="tel" class="validate">
+    <label for="icon_telephone">Telephone</label>
+</div>
+</div>
+    <div class="row">
+        <p>
+            <label>
+                <input type="checkbox" />
+                <span>Remember me</span>
+            </label>
+        </p>
+    </div>
+    <div class="input-field col s12">
+        <div class="center">
+    
+            <div id="captchaBackground">
+                <canvas id="captcha">captcha text</canvas>
+                <input id="textBox" type="text" name="text">
+    
+                <div id="buttons">
+                    <input id="submitButton" type="submit">
+                    <button id="refreshButton" type="reset">Refresh</button>
                 </div>
+    
+                <span id="output"></span>
+            </div>
+        </div>
+    </div>
+    <div>
     
                 <a href="./signup.html" class="link">signup</a>
     
@@ -73,12 +102,63 @@
                 <button type="submit" class="button1">send</button>
     
     
-            </form>
+            
     
         </div>
+    </form>
 
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
 
+    
+        document.addEventListener('DOMContentLoaded', function() {
+          var elems = document.querySelectorAll('select');
+          var instances = M.FormSelect.init(elems, options);
+        });
+      
+        // Or with jQuery
+      
+        $(document).ready(function(){
+          $('select').formSelect();
+        });
+            
+                var instance = M.FormSelect.getInstance(elem);
+              
+                /* jQuery Method Calls
+                  You can still use the old jQuery plugin method calls.
+                  But you won't be able to access instance properties.
+              
+                  $('select').formSelect('methodName');
+                  $('select').formSelect('methodName', paramName);
+                */
+                
+                    instance.getSelectedValues();
+                
+               
+            instance.destroy();
+                </script>
 
+                <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                      var elems = document.querySelectorAll('.autocomplete');
+                      var instances = M.Autocomplete.init(elems, options);
+                    });
+                  
+                  
+                    // Or with jQuery
+                  
+                    $(document).ready(function(){
+                      $('input.autocomplete').autocomplete({
+                        data: {
+                          "Apple": null,
+                          "Microsoft": null,
+                          "Google": 'https://placehold.it/250x250'
+                        },
+                      });
+                    });
+                          </script>
+
+        <script src="./data/javascript/login.js"></script>
 
 </body>
 

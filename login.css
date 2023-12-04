@@ -93,3 +93,86 @@ input{
 .button1:focus{
     background-color: #003a5c;
 }
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #232331;
+    font-family: 'Roboto', sans-serif;
+}
+
+#captchaBackground {
+    height: 220px;
+    width: 250px;
+    background-color: #2d3748;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#captchaHeading {
+    color: white;
+}
+
+#captcha {
+    height: 80%;
+    width: 80%;
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin: auto;
+    display: block;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#submitButton {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background-color: #08e5ff;
+    border: 0px;
+    font-weight: bold;
+}
+
+#refreshButton {
+    background-color: #08e5ff;
+    border: 0px;
+    font-weight: bold;
+}
+
+#textBox {
+    height: 25px;
+}
+
+.incorrectCaptcha {
+    color: #FF0000;
+}
+
+.correctCaptcha {
+    color: #7FFF00;
+}
+
+
+
+
+Add or remove CSS properties from this code according to your preference. You can also give an elegant look to the form container using the CSS box-shadow property.
+
+CAPTCHA Validation Using JavaScript
+You need to use JavaScript to add functionality to a webpage. Start by fetching references to the elements you’ll need to work with including the canvas and input box. Use the document.getElementById() function to do this:
+
+ let captchaText = document.getElementById('captcha');
+var ctx = captchaText.getContext("2d");
+ctx.font = "30px Roboto";
+ctx.fillStyle = "#08e5ff";
+
+let userText = document.getElementById('textBox');
+let submitButton = document.getElementById('submitButton');
+let output = document.getElementById('output');
+let refreshButton = document.getElementById('refreshButton');
