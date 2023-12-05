@@ -3,7 +3,7 @@
 body::after{
     content: '';
     position: fixed;
-    background-image: url(./Rayman-legends-background.jpg);
+    background-image: url(./steam-files/Rayman-legends-background.jpg);
     background-size: cover;
     top: 0;
     left: 0;

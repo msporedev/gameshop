@@ -1,5 +1,5 @@
 body{
-    background-color: #E1F5FE;
+    background-color: #03121a;
 }
 
 figure{
@@ -29,11 +29,11 @@ article a{
 }
 
 article a:hover{
-    background-color: rgb(172, 223, 243);
+    background-color: #c93804;
 }
 
 figcaption{
-    color: #00695C;
+    color: #78909C;
     font-size: xx-large;
     border-radius: 7px;
 }
