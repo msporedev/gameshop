@@ -3,7 +3,7 @@
 body::after{
     content: '';
     position: fixed;
-    background-image: url(./WWE2K23.jpg);
+    background-image: url(./steam-files/WWE2K23.jpg);
     background-size: cover;
     top: 0;
     left: 0;
@@ -31,7 +31,7 @@ video{
 }
 
 .trailer-panel{
-    margin: 3em;
+    margin: 2em;
     background-color: #263238;
     padding: 100px 100px;
     border-radius: 10px;
@@ -88,6 +88,7 @@ video{
     border-radius: 10px;
     margin-left: 2em;
     margin-right: 2em;
+    margin-bottom: 2em;
 }
 
 .game-info-items{

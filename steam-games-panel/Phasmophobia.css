@@ -3,7 +3,7 @@
 body::after{
     content: '';
     position: fixed;
-    background-image: url(./THE-LAST-OF-US-background.jpg);
+    background-image: url(./steam-files/Phasmophobia-PIC1.jpg);
     background-size: cover;
     top: 0;
     left: 0;
