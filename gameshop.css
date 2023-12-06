@@ -153,6 +153,14 @@ h1{
     border: 2em;
 }
 
+ul{
+  text-align: center;
+}
+
+li{
+  display: inline-flex;
+}
+
 nav div[class="nav-wrapper"] div[class="col s12"] a:hover{
     color: skyblue;
 }
