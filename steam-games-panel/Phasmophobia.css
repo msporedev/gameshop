@@ -3,7 +3,7 @@
 body::after{
     content: '';
     position: fixed;
-    background-image: url(./steam-files/Phasmophobia-PIC1.jpg);
+    background-image: url(./steam-files/Phasmophobia-PIC4.jpg);
     background-size: cover;
     top: 0;
     left: 0;
@@ -31,10 +31,14 @@ video{
 }
 
 .trailer-panel{
-    margin: 3em;
+    margin: 2em;
     background-color: #263238;
     padding: 100px 100px;
     border-radius: 10px;
+}
+
+li{
+    display: inline-flex;
 }
 
 .game-amount{
@@ -69,6 +73,7 @@ video{
     border-radius: 7px;
     display: inline-flex;
     padding: 5px 10px;
+    text-decoration: none !important;
     color: #bce8ff;
 }
 
