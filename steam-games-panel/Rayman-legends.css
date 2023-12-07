@@ -70,6 +70,11 @@ video{
     display: inline-flex;
     padding: 5px 10px;
     color: #bce8ff;
+    text-decoration: none !important;
+}
+
+li{
+    display: inline-flex;
 }
 
 .laws{

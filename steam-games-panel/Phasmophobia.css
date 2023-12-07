@@ -75,6 +75,11 @@ li{
     padding: 5px 10px;
     text-decoration: none !important;
     color: #bce8ff;
+    text-decoration: none !important;
+}
+
+li{
+    display: inline-flex;
 }
 
 .laws{
