@@ -3,7 +3,7 @@
 body::after{
     content: '';
     position: fixed;
-    background-image: url(./steam-files/);
+    background-image: url(./steam-files/Project-Zomboid-background.jpg);
     background-size: cover;
     top: 0;
     left: 0;
@@ -31,7 +31,7 @@ video{
 }
 
 .trailer-panel{
-    margin: 3em;
+    margin: 2em;
     background-color: #263238;
     padding: 100px 100px;
     border-radius: 10px;
