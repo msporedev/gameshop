@@ -3,7 +3,7 @@
 body::after{
     content: '';
     position: fixed;
-    background-image: url(./steam-files/Rayman-Origins-background.jpg);
+    background-image: url(./steam-files/The-Forest-PIC11.jpg);
     background-size: cover;
     top: 0;
     left: 0;
@@ -73,14 +73,6 @@ video{
     text-decoration: none !important;
 }
 
-.law-items{
-    text-align: left;
-}
-
-li.waves-effect{
-    display: inline-flex;
-}
-
 .laws{
     background-color: #263238;
     border-radius: 10px;
@@ -90,6 +82,14 @@ li.waves-effect{
     color: #78909C;
     padding: 2em;
     text-align: end;
+}
+
+.law-items{
+    text-align: left;
+}
+
+li.waves-effect{
+    display: inline-flex;
 }
 
 .game-info{

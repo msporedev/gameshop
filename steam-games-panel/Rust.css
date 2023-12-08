@@ -3,7 +3,7 @@
 body::after{
     content: '';
     position: fixed;
-    background-image: url(./steam-files/Rayman-Origins-background.jpg);
+    background-image: url(/steam-games/rust.jpg);
     background-size: cover;
     top: 0;
     left: 0;
