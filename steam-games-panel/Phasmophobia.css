@@ -78,7 +78,11 @@ li{
     text-decoration: none !important;
 }
 
-li{
+.law-items{
+    text-align: left;
+}
+
+li.waves-effect{
     display: inline-flex;
 }
 
