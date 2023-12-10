@@ -1,3 +1,17 @@
 body{
     background-color: #03121a;
 }
+
+.p1{
+    color: #FF4500;
+    font-size: xx-large;
+}
+
+.p2{
+    color: #0288D1;
+    font-size: x-large;
+}
+
+.p2 li{
+    margin: 1em;
+}
