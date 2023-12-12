@@ -1,20 +1,28 @@
 body{
-    background-color: #E1F5FE;
+    background-color: #03121a;
 }
 
 #header{
     font-size: 2.5em;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    background-color: #26A69A;
+    background-color: #292929;
     margin: 0;
     margin-block-end: 0;
     padding: 2em;
     margin-block-start: 0;
     display: block;
-    color: #00B0FF;
+    color: #00BFFF;
 }
 
-div[class="nav-wrapper"] i[class="brand-logo"]{
-    color: #EEFF41;
+/* div[class="nav-wrapper"] i[class="brand-logo"]{
+    color: ;
+} */
+
+.red-button{
+    background-color: #FF4500;
+}
+
+.red-button:hover{
+    background-color: #c93804;
 }

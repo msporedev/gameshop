@@ -1,5 +1,5 @@
 body{
-    background-color: #E1F5FE;
+    background-color: #03121a;
 }
 
 header{
@@ -8,4 +8,12 @@ header{
     font-size: xx-large;
     padding: 2em;
     color: #8C9EFF;
+}
+
+.red-button{
+    background-color: #FF4500;
+}
+
+.red-button:hover{
+    background-color: #c93804;
 }
