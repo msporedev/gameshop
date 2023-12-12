@@ -3,11 +3,12 @@ body{
 }
 
 header{
-    background-color: #00796B;
+    background-color: #292929;
+    /* #00796B */
     text-align: center;
     font-size: xx-large;
     padding: 2em;
-    color: #8C9EFF;
+    color: #00BFFF;
 }
 
 .red-button{
