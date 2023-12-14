@@ -1,5 +1,5 @@
 body{
-    background-color: #E1F5FE;
+    background-color: #03121a;
 }
 
 figure{
@@ -10,7 +10,14 @@ figure:hover{
     background-color: #00E5FF;
 }
 
-figure fieldset img{
+.red-button{
+    background-color: #FF4500;
+  }
+  .red-button:hover{
+    background-color: #c93804;
+  }
+
+figure img{
     width: 200px;
 }
 
