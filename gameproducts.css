@@ -26,3 +26,33 @@ body{
 .red-button:hover{
     background-color: #c93804;
 }
+
+#search-input{
+    color: #e2e2e2;
+}
+
+.search-panel{
+    padding: 1em;
+    background-color: #292929;
+}
+.search-panel form{
+    position: relative;
+}
+
+#search-label{
+    color: #e2e2e2;
+}
+
+.search-panel button{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #c0c0c0;
+}
+
+.search-panel button:active{
+    background-color: #0000003e;
+}

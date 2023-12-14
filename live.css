@@ -1,22 +1,46 @@
 body{
-    background-color: #E1F5FE;
+    background-color: #03121a;
 }
 
+.red-button{
+    background-color: #FF4500;
+}
+
+.red-button:hover{
+    background-color: #c93804;
+}
+
+
 div[id="items-library"] figure{
-    display: inline-block;
+    display: inline-flex;
+    padding: 5px;
+    border-radius: 7px;
 }
 
 div[id="items-library"] figure:hover{
-    background-color: #00E5FF;
+    background-color: #FF4500;
 }
 
-div[id="items-library"] figure fieldset img{
+div[id="items-library"] figure img{
+    border-radius: 7px;
     max-width: 200px;
     max-height: 400px;
     height: 250px;
     display: block;
 }
 
-nav[id="navbar1"] div ul i{
-    margin: 20px;
+nav[id="navbar1"] div ul li{
+    display: inline-flex;
+    font-size: xx-large;
+    margin-left: 0.5em;
+}
+
+div[id="items-library"] figure figcaption{
+    text-align: center;
+    background-color: #404040;
+    font-size: large;
+    border-radius: 9px;
+    margin-top: 7px;
+    color: #00E5FF;
+    text-decoration: none !important;
 }
