@@ -344,6 +344,7 @@ figure:hover{
 div.lisenses-library{
   background-color: #404040;
   border-radius: 7px;
+  text-align: center;
 }
 /* #607D8B */
 div.lisenses{
