@@ -118,8 +118,8 @@
   </script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
-      var elems = document.querySelectorAll('.dropdown-trigger');
-      var instances = M.Dropdown.init(elems, options);
+      const elems = document.querySelectorAll('.dropdown-trigger');
+      const instances = M.Dropdown.init(elems, options);
     });
   
     // Or with jQuery
@@ -129,8 +129,8 @@
 
     <script>
   document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.fixed-action-btn');
-    var instances = M.FloatingActionButton.init(elems, {
+    const elems = document.querySelectorAll('.fixed-action-btn');
+    const instances = M.FloatingActionButton.init(elems, {
       direction: 'left',
       hoverEnabled: false
     });
@@ -139,8 +139,8 @@
 <script>
  
  document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.dropdown-trigger');
-    var instances = M.Dropdown.init(elems, options);
+    const elems = document.querySelectorAll('.dropdown-trigger');
+    const instances = M.Dropdown.init(elems, options);
   });
 
   // Or with jQuery
@@ -150,7 +150,7 @@
         </script>
 
         <script>
-          var instance = M.Dropdown.getInstance(elem);
+          const instance = M.Dropdown.getInstance(elem);
       
           /* jQuery Method Calls
             You can still use the old jQuery plugin method calls.
