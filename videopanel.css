@@ -4,10 +4,12 @@ body{
 
 figure{
     display: inline-block;
+    border-radius: 7px;
 }
 
 figure:hover{
-    background-color: #00E5FF;
+    background-color: #FF4500;
+    padding: 3px;
 }
 
 .red-button{
