@@ -9,7 +9,9 @@ body{
     margin: 0;
     padding: 0;
   }
+
   .wrapper {
+    top: 4em;
     height: 25em;
     width: 100%;
     background: linear-gradient(180deg, #ef865f, 5%, #FF4500, 50%, #b13301);
@@ -159,6 +161,10 @@ ul{
 
 li{
   display: inline-flex;
+}
+
+.nav{
+  position: fixed;
 }
 
 nav div[class="nav-wrapper"] div[class="col s12"] a:hover{
