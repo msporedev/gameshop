@@ -1,5 +1,4 @@
 
-
 body::after{
     content: '';
     position: fixed;
@@ -16,14 +15,13 @@ body::after{
 }
 
 .my-button{
-    display: inline-block;
+    /* display: inline-block; */
     padding: 8px 12px;
     border-radius: 7px;
         background-color: white;
         text-decoration: none !important;
         text-align: center;
         transition-duration: 0.3s;
-        text-align: center;
     }
     .my-button{
     background-color: #e2e2e2;
@@ -33,7 +31,7 @@ body::after{
     text-align: center;
     background-color: rgb(47, 177, 177);
     border-radius: 5px;
-    display: inline-block;
+    /* display: inline-block; */
     text-decoration: none !important;
     padding: 2em;
     margin: 7pt;
@@ -41,10 +39,12 @@ body::after{
     }
 
 .shop{
+    text-align: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-}
+    justify-content: center;
+ }
 
 .shop2{
     font-size: xx-large;
@@ -53,13 +53,15 @@ body::after{
     background-color: #222;
     padding: 1em 2em;
     border-radius: 10px;
+    text-align: center;
 }
 
 figure {
-    flex-flow: column;
+    /* flex-flow: column; */
     padding: 5px;
     max-width: 400px;
     border-radius: 7px;
+    /* text-align: center; */
 }
 
 img {
@@ -98,5 +100,6 @@ figure:hover{
 }
 
 .products{
-    border-radius: inline-block;
+    /* border-radius: flex;
+    text-align: center; */
 }
