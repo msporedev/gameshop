@@ -57,11 +57,9 @@ body::after{
 }
 
 figure {
-    /* flex-flow: column; */
     padding: 5px;
     max-width: 400px;
     border-radius: 7px;
-    /* text-align: center; */
 }
 
 img {
@@ -97,9 +95,4 @@ figure:hover{
 .shop a[href]{
     text-align: center;
     text-decoration: none !important;
-}
-
-.products{
-    /* border-radius: flex;
-    text-align: center; */
 }
