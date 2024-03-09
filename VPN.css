@@ -1,0 +1,28 @@
+body{
+    background-color: #F5F5F5;
+}
+
+header{
+    background-color: #c2c2c2;
+}
+
+div.article{
+    text-align: center;
+}
+
+li{
+    display: inline-flex;
+}
+
+.card{
+    width: 300px;
+}
+
+.img1{
+    height: 200px;
+    width: 300px;
+}
+
+.card-content{
+    background-color: #757de8;
+}
