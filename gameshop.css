@@ -12,7 +12,7 @@ body{
 
   .wrapper {
     top: 4em;
-    height: 25em;
+    height: 60%;
     width: 100%;
     background: linear-gradient(to right, #03121a, #03A9F4);
     position: absolute;
@@ -165,6 +165,7 @@ li{
 
 .nav{
   position: fixed;
+  z-index: 2;
 }
 
 nav div[class="nav-wrapper"] div[class="col s12"] a:hover{
@@ -276,6 +277,7 @@ figure {
     padding: 5px;
     max-width: 300px;
     border-radius: 7px;
+    transition-duration: 0.5s;
 }
 
 img.img {
@@ -310,8 +312,8 @@ figcaption {
 }
 
 figure:hover{
-    background-color: #FF4500;
-    transition-duration: 0.3s;
+    background-color: #0277BD;
+    transform: translateY(-5px);
 }
 
 .item1:hover{

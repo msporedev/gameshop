@@ -60,10 +60,11 @@ figure {
     padding: 5px;
     max-width: 400px;
     border-radius: 7px;
+    transition-duration: 0.5s;
 }
 
 img {
-    max-width: 400px;
+    max-width: 380px;
     min-width: 200px;
     max-height: 800px;
     border-radius: 7px;
@@ -79,7 +80,7 @@ figcaption {
 
 figure:hover{
     background-color: #0277BD;
-    transition-duration: 0.3s;
+    transform: translateY(-5px);
 }
 
 .item1:hover{
