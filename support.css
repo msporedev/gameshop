@@ -1,39 +1,44 @@
 body{
     background-color: #03121a;
+    box-sizing: border-box;
+}
+
+.products-box{
+    margin-top: 1em;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1em;
+}
+
+a.item-box{
+    padding: 0;
+    border-radius: 7px;
+    transition-duration: 0.5s;
+}
+
+a.item-box:hover{
+    background-color: rgb(168, 208, 243);
+    transform: translateY(-5px);
+}
+
+img.item-img{
+    min-width: 5em;
+    min-height: 7em;
+    max-width: 8em;
+    min-height: 9em;
 }
 
 figure{
-    text-align: center;
-}
-
-#whatsapplogo{
-    height: 200px;
-    margin: 1em;
-}
-
-#telegramlogo{
-    height: 185px;
-    margin: 1em;
-}
-
-#facebooklogo{
-    height: 200px;
-    margin: 1em;
-}
-
-article a{
-    display: inline-block;
-    margin: 2em;
-    padding: 2em;
-    text-decoration: none !important;
-}
-
-article a:hover{
-    background-color: #c93804;
+    padding: 0;
 }
 
 figcaption{
-    color: #78909C;
-    font-size: xx-large;
-    border-radius: 7px;
+    font-family: monospace;
+}
+
+span.link {
+    font-family: cursive;
 }
