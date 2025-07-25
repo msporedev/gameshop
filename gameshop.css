@@ -14,14 +14,14 @@ body{
     top: 4em;
     height: 25em;
     width: 100%;
-    background: linear-gradient(180deg, #ef865f, 5%, #FF4500, 50%, #b13301);
+    background: linear-gradient(to right, #03121a, #03A9F4);
     position: absolute;
   }
   .red-button{
-    background-color: #FF4500;
+    background-color: #03A9F4;
   }
   .red-button:hover{
-    background-color: #c93804;
+    background-color: #0085c2;
   }
   /* #119dff */
   .wrapper h1 {

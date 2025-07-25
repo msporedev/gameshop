@@ -1,5 +1,6 @@
 body{
-    background-color: #03121a;
+    background-color: #232331;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -7,15 +8,14 @@ label{
     font-size: x-large;
 }
 
-#for-example{
+/* #for-example{
     text-align: center;
     margin: 1em;
-    
     height: 14em;
     padding: 4em;
     font-size: x-large;
     border-radius: 7px;
-}
+} */
 
 .login-form2{
     text-align: center;
@@ -44,7 +44,6 @@ input{
 #front-w1{
     text-align: center;
     background-color: #464646;
-    margin: 20em;
     margin-top: auto;
     padding: 3em;
     border-radius: 10px;
@@ -99,10 +98,6 @@ input{
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-body {
-    background-color: #232331;
-    font-family: 'Roboto', sans-serif;
-}
 
 #captchaBackground {
     height: 220px;
