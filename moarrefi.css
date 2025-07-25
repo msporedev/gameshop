@@ -7,27 +7,35 @@ body{
 }
 
 #linkcreate-form{
-    background-color: #FF4500;
+    background: linear-gradient(to left, #0196db, #051721);
     padding: 2em 5em;
-    border: groove;
+    border-radius: 7px;
     text-align: center;
-    margin-top: 10em;
-    display: inline-block;
+    margin-top: 9em;
 }
 
 input{
-    font-size: x-large;
+    font-size: large;
     border-radius: 5px;
 }
 
 label{
     font-size: x-large;
+    margin: 1em;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    color: #47b097;
 }
 
 div[id="headerform"] form[id="linkcreate-form"] button{
-    padding: 10px 20px;
-    background-color: #03A9F4;
-    transition-duration: 0.4s;
+    padding: 0.5em 1em;
+    background: linear-gradient(to right, #03121a, #03A9F4);
+    border-radius: 7px;
+    border: linear-gradient(to right, #03121a, #03A9F4);
+    transition-duration: 0.5s;
     font-size: large;
 }
 
